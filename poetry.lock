@@ -426,6 +426,17 @@ paramiko = ["paramiko"]
 pgp = ["gpg"]
 
 [[package]]
+name = "fake-useragent"
+version = "1.4.0"
+description = "Up-to-date simple useragent faker with real world database"
+optional = false
+python-versions = "*"
+files = [
+    {file = "fake-useragent-1.4.0.tar.gz", hash = "sha256:5426e4015d8ccc5bb25f64d3dfcfd3915eba30ffebd31b86b60dc7a4c5d65528"},
+    {file = "fake_useragent-1.4.0-py3-none-any.whl", hash = "sha256:9acce439ee2c6cf9c3772fa6c200f62dc8d56605063327a4d8c5d0e47f414b85"},
+]
+
+[[package]]
 name = "fastjsonschema"
 version = "2.19.1"
 description = "Fastest Python implementation of JSON schema"
@@ -1427,4 +1438,4 @@ test = ["pytest"]
 [metadata]
 lock-version = "2.0"
 python-versions = "3.12.2"
-content-hash = "5688bb122ed1fb1892fa5c2641837c463d3c0df93d940864a50f79b102ac0bef"
+content-hash = "ace89ddc5e0c170cb912dc267b9d2781a68c7509934614ad2ed59175a2add1a0"
