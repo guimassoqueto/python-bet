@@ -1,11 +1,13 @@
+Python 3.12.2+
+
 ```sh
-python -m venv .venv
+make shell
 ```
 
 ```sh
-source .venv/bin/activate
+make install
 ```
 
 ```sh
-pip install -r requirements.txt
+make requirements
 ```
