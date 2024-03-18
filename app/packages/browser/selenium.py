@@ -14,6 +14,8 @@ def sync_get_html_content(url: str) -> str:
     """
     driver = webdriver.Chrome()
     driver.get(url)
+    driver.implicitly_wait(15)
+    # TODO: wait for page completely load
     html_content = driver.page_source
     driver.quit()
     return html_content
