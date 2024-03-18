@@ -8,3 +8,6 @@ Reliable Bookmakers:
 * Sporting Bet
 * BET365
 * Betway
+* BETSUL
+* b2xbet
+* Bwin
