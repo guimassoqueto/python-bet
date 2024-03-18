@@ -11,3 +11,4 @@ Reliable Bookmakers:
 * BETSUL
 * b2xbet
 * Bwin
+* betpix365
