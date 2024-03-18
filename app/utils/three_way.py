@@ -133,7 +133,7 @@ def three_way_amount_to_bet(k1: float, k2: float, k3: float, v: float) -> tuple[
     return v1, v2, v3
 
 
-def three_way_pct_profit(v1, v2, v3, k1, k2, k3, v):
+def three_way_pct_profit(v1, v2, v3, k1, k2, k3, v) -> float:
     """
     Calculate the average percentage profit of the bet.
 
