@@ -146,6 +146,9 @@ pysocks==1.7.1 ; python_full_version == "3.12.2" \
     --hash=sha256:08e69f092cc6dbe92a0fdd16eeb9b9ffbc13cadfe5ca4c7bd92ffb078b293299 \
     --hash=sha256:2725bd0a9925919b9b51739eea5f9e2bae91e83288108a9ad338b2e3a4435ee5 \
     --hash=sha256:3f8804571ebe159c380ac6de37643bb4685970655d3bba243530d6558b799aa0
+python-dotenv==1.0.1 ; python_full_version == "3.12.2" \
+    --hash=sha256:e324ee90a023d808f1959c46bcbc04446a10ced277783dc6ee09987c37ec10ca \
+    --hash=sha256:f7b63ef50f1b690dddf550d03497b66d609393b40b564ed0d674909a68ebf16a
 selectolax==0.3.20 ; python_full_version == "3.12.2" \
     --hash=sha256:03e721fa4517f1ae9eaa2cbc991dc6df8407226bf618e92aa7c12a8ac7f496a3 \
     --hash=sha256:03f794cf7aba4481e2ecc8ace9e444c933e9fbd425d83941135d05b0e2e6b716 \
