@@ -1,14 +1,16 @@
 Reliable Bookmakers:
 
-* Betano
-* PixBet
-* Esportes da Sorte
-* Vai de Bet
-* Estrela Bet
-* Sporting Bet
-* BET365
-* Betway
-* BETSUL
-* b2xbet
-* Bwin
-* betpix365
+[x] Betano
+[x] PixBet
+[x] Esportes da Sorte
+[x] Vai de Bet
+[] Estrela Bet
+[x] Sporting Bet
+[] BET365
+[x] Betway
+[x] BETSUL
+[] b2xbet
+[x] Bwin
+[] betpix365
+[] BetFair
+[] Betmotion
