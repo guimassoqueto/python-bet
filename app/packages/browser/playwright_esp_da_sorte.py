@@ -16,8 +16,7 @@ async def async_get_html_content(url):
         page = await browser.new_page()
         await page.set_viewport_size({"width": 1920, "height": 1080})
         await page.goto(url)
-        await page.wait_for_selector("inner-season", state="visible")
-        await page.wait_for_load_state('networkidle')
+        await page.wait_for_selector("inner-season", state="visible", timeout=20000)
         html_content = await page.content()
         await browser.close()
         return html_content

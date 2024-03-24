@@ -14,10 +14,9 @@ async def async_get_html_content(url):
     async with async_playwright() as playwright:
         browser = await playwright.chromium.launch(headless=False)
         page = await browser.new_page()
-        page.set_default_timeout(60*1000)
         await page.set_viewport_size({"width": 1920, "height": 1080})
         await page.goto(url)
-        await page.wait_for_load_state('networkidle')
+        await page.wait_for_selector(".modul-content > .fixture-container", state='visible', timeout=20000)
         html_content = await page.content()
         await browser.close()
         return html_content
